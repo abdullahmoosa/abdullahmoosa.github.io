@@ -1,3 +1,113 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.banner-container{
+    background-color: #A6A6A6;
+}
+
+.banner-column{
+    background-color: #5B5B5B;
+}
+
+.navbar-container{
+    background-color: #4E222D;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.about-container{
+    background-color: #DDD0C8;
+
+}
+
+.education-container{
+    background-color: #eceaea;
+
+}
+
+.education-text{
+    color: #4E222D;
+    font-weight: bolder;
+}
+
+.about-text{
+    color: #4E222D;
+}
+
+.circle{
+    background-color: #4E222D;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.project-container{
+    background-color: #3E4026;
+}
+
+.certification-container{
+    background-color: #DDD0C8;
+}
+
+.certification-text{
+    color: #4E222D;
+}
+
+.clickable-image {
+    width: 100%; /* make images fill the entire column */
+    height: auto; /* maintain aspect ratio */
+    transition: all 0.3s ease; /* add transition effect when the style changes */
+    cursor: pointer; /* change cursor to pointer to indicate it's clickable */
+  }
+
+.clickable-image.enlarged {
+position: absolute; /* position the image absolutely */
+top: 0; /* align the top of the image with the top of the column */
+left: 0; /* align the left of the image with the left of the column */
+width: 200%; /* new width of the enlarged image */
+z-index: 1; /* place the enlarged image on top of the other images */
+}
+
+.contact-container {
+    background-color: #323232;
+
+}
+
+.inner-form{
+    background-color: #767676;
+}
+
+.submit-button {
+    background-color: #4E222D;
+}
+.submit-button :hover{
+    background-color: #4E222D;
+    color: darkblue!important;
+}
+
+.footer{
+    background-color:cadetblue ;
+}
+
+#p-footer{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.circle-footer{
+    background-color: wheat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: cadetblue;
+}
+
+
+
+
+  
