@@ -47,6 +47,16 @@ body{
     background-color: #3E4026;
 }
 
+.achievement-container{
+    background-color: darkslategray;
+    
+
+}
+
+.achievement-font{
+    font-family: cursive;
+}
+
 .certification-container{
     background-color: #DDD0C8;
 }
@@ -97,15 +107,31 @@ z-index: 1; /* place the enlarged image on top of the other images */
 }
 
 .circle-footer{
-    background-color: wheat;
+    /* background-color: #f5deb3; */
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: inline-block;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    color: cadetblue;
+    /* color: cadetblue; */
 }
+
+.circle-footer:hover .fa-brands.fa-facebook {
+  
+    color: #323232!important;
+    /* fill: #323232; */
+}
+.circle-footer:hover .fa-brands.fa-github {
+
+color: #323232!important;
+/* fill: #323232; */
+}
+.circle-footer:hover .fa-brands.fa-linkedin {
+
+    color: #323232!important;
+    /* fill: #323232; */
+    }
 
 
 
