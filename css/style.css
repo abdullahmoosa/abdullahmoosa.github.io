@@ -86,6 +86,20 @@ z-index: 1; /* place the enlarged image on top of the other images */
 
 }
 
+.circle-contact{
+    /* background-color: #f5deb3; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    /* color: cadetblue; */
+}
+
+.contact-text{
+    font-size: large;
+}
 .inner-form{
     background-color: #767676;
 }
